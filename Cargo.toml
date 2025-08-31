@@ -1,0 +1,13 @@
+[package]
+name = "nbody-simulation"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+# Math and numerical computing
+nalgebra = "0.33"
+rand = "0.8"
+
+# Visualization (optional)
+# macroquad = "0.4"  # Uncomment for 2D graphics
+# plotters = "0.3"   # Uncomment for plotting
