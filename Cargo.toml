@@ -8,6 +8,10 @@ edition = "2024"
 nalgebra = "0.33"
 rand = "0.8"
 
-# Visualization (optional)
-# macroquad = "0.4"  # Uncomment for 2D graphics
-# plotters = "0.3"   # Uncomment for plotting
+# Graphics and windowing (works for both native and web)
+macroquad = "0.4"
+
+# For main binary
+[[bin]]
+name = "nbody-simulation"
+path = "src/main.rs"
