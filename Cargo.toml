@@ -4,15 +4,12 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-# Math and numerical computing
 nalgebra = "0.33"
 rand = "0.8"
 rayon = "1.7"
 
-# Graphics and windowing (works for both native and web)
 macroquad = "0.4"
 
-# For main binary
 [[bin]]
 name = "nbody-simulation"
 path = "src/main.rs"
